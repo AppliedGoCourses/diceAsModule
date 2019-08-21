@@ -6,6 +6,6 @@ import (
 	"github.com/appliedgocourses/dice"
 )
 
-func PrintRoll(sides int, comment string) {
-	fmt.Printf("%s: %d\n", comment, dice.Roll(sides))
+func Roll(sides int) {
+	fmt.Printf("Rolling a %d-sided die: %d\n", sides, dice.Roll(sides))
 }
